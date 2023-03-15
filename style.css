@@ -1,0 +1,74 @@
+/* Feel free to change any of the styling below!*/
+body {
+    text-align: center;
+
+}
+
+img {
+    width: 350px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+button {
+    height: 40px;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+.storyopening{
+   display:block;
+}
+
+
+
+
+.optiononescreen{
+  background-image:url("https://media.istockphoto.com/id/1246557880/vector/vector-cartoon-illustration-of-happy-man-or-businessman-sleeping-under-dollar-currency-bill.jpg?s=612x612&w=0&k=20&c=b4b4hmpgYybOWnZ3J702UQ6-3N0lqotMQNsII6Cd6XU=");
+  display:block;
+}
+
+
+
+.optiontwoscreen{
+   display:none;
+}
+
+
+.option-one-end{
+   display:none;
+}
+
+ 
+.option-two-end{
+   display:none;
+}
+
+
+.optiononescreen{
+  display:none;
+}
+
+
+

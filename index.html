@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!--Between lines 8-12, put the opening of your story-->
+  <div class="title">To sleep or not to sleep </div>
+  <div class="storyopening">
+    <img src="https://cdn.shopify.com/s/files/1/0225/2528/0331/products/sydney_bed_natural_king-queen_1_2000x.jpg?v=1587146049">
+    <h1>You wake up on the weekend but you to go to the supermarket (do you stay or go)</h1>
+  <!--Change the text of the buttons to the options relevant to your story!-->
+  <div class="buttons">
+    <button class="optiononebt">stay in bed </button>
+    <button class="optiontwobt">get up</button>
+  </div>
+  </div>
+  <!--Between lines 19-22, put the part of the story the user will see if they picked option one-->
+  <div class="optiononescreen">
+    <h1>You stay in bed sleep all day(sleep ending)</h1>
+    <img src="http://cdn.shopify.com/s/files/1/0522/6912/1736/products/BB87005GN-blue-car-bed-room-black-stripes_18a47ea2-40a0-4279-b024-5b8cd7e3d022.jpg?v=1611746351">
+  </div>
+  <!--Between lines 24-27, put the part of the story the user will see if they picked option two-->
+  <div class="optiontwoscreen">
+    <h1>You get up out of bed do you go to the bath room or to the living room</h1>
+    <button class="optionbathsroombt">bath room</button>
+    <button class="optionlivingsbt">living room</button>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj4Pcj7okX4PhURao1Xhlm6-Ruy21E5RYvFw&usqp=CAU">
+  </div>
+  <!--Between lines 29-32, put the end of the story if the user chose option 1-->
+  <div class="option-one-end">
+    <h1>You go to bathroom do you brush teeth or take bath</h1>
+    <button class="optionteethsbt">brush teeth</button>
+    <button class="optionbathsbt">take bath</button>
+    <img src="data:image/jpeg;base64,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">
+  </div>
+  <!--Between lines 29-32, put the end of the story if the user chose option 2-->
+  <div class="option-two-end">
+    <h1>Put final part of your story based on if they chosen no at the beginning </h1>
+    <button class="option">under construction</button>
+    <button class="option">under construction</button>
+    <img src="https://cdn.glitch.global/9d066a26-dbcb-4aa3-b1af-3cd59e251b0c/placeholder.jpeg?v=1657576139439">
+  </div>
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+
+
+ <div class="option-two-end">
+    <h1>Put final part of your story based on if they chosen no at the beginning </h1>
+   <button class="option-one">under construction</button>
+   <button class="option-two">under construction</button>
+    <img src="https://cdn.glitch.global/9d066a26-dbcb-4aa3-b1af-3cd59e251b0c/placeholder.jpeg?v=1657576139439">
+  </div>
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+
+
+
+
+
+
+ <div class="option-two-end">
+    <h1>Put final part of your story based on if they chosen no at the beginning </h1>
+   <button class="option-one">under construction</button>
+   <button class="option-two">under construction</button>
+    <img src="https://cdn.glitch.global/9d066a26-dbcb-4aa3-b1af-3cd59e251b0c/placeholder.jpeg?v=1657576139439">
+  </div>
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
